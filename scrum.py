@@ -19,7 +19,7 @@ for x, y, z in data:
 #print(S)
 
 ax.scatter(X, Y, Z, s=S, label="Stories 'Size' = Effort+Unknowns+Complexity")
-ax.plot([0,5], [0,5], [0,5],c=[1,0,0,1], label="Helper line")
+ax.plot([0,5], [0,5], [0,5],c=[1,0,0,1], label="Helper line: from(0,0,0) to(5,5,5)")
 
 # Make legend, set axes limits and label
 ax.legend()
