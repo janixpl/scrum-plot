@@ -23,7 +23,7 @@ ax.plot([0,5], [0,5], [0,5],c=[1,0,0,1], label="Helper line: from(0,0,0) to(5,5,
 
 # Make legend, set axes limits and label
 ax.legend()
-ax.set_title('Time is often result our estimation')
+ax.set_title('Time is often result of our estimation')
 ax.set_xlim(0, 5)
 ax.set_ylim(0, 5)
 ax.set_zlim(0, 5)
