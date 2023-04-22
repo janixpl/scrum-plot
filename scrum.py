@@ -18,11 +18,12 @@ for x, y, z in data:
 
 #print(S)
 
-ax.scatter(X, Y, Z, s=S, label="Stories 'Size' = Time+Unknowns+Complexity")
-ax.plot([0,5], [0,5], [0,5],c=[1,0,0,1])
+ax.scatter(X, Y, Z, s=S, label="Stories 'Size' = Effort+Unknowns+Complexity")
+ax.plot([0,5], [0,5], [0,5],c=[1,0,0,1], label="Helper line")
 
 # Make legend, set axes limits and label
 ax.legend()
+ax.set_title('Time is often result')
 ax.set_xlim(0, 5)
 ax.set_ylim(0, 5)
 ax.set_zlim(0, 5)
