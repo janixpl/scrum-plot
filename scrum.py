@@ -18,7 +18,7 @@ for x, y, z in data:
 
 #print(S)
 
-ax.scatter(X, Y, Z, s=S, label='Template Scrum Points')
+ax.scatter(X, Y, Z, s=S, label="Story's 'Size' = Time+Unknowns+Complexity")
 ax.plot([0,5], [0,5], [0,5],c=[1,0,0,1])
 
 # Make legend, set axes limits and label
