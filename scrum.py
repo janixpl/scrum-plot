@@ -26,7 +26,7 @@ ax.legend()
 ax.set_xlim(0, 5)
 ax.set_ylim(0, 5)
 ax.set_zlim(0, 5)
-ax.set_xlabel('Time')
+ax.set_xlabel('Effort')
 ax.set_ylabel('Unknowns')
 ax.set_zlabel('Complexity')
 
