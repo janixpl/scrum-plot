@@ -57,7 +57,7 @@ jobs:
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
       - run: |
-        az webapp list --query "[?state=='Running']"
+          az webapp list --query "[?state=='Running']"
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
