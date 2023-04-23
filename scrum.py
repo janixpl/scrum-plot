@@ -1,7 +1,8 @@
 import matplotlib.pyplot as plt
 from itertools import product 
 
-ax = plt.figure().add_subplot(projection='3d')
+fig = plt.figure()
+ax = fig.add_subplot(projection='3d')
 arr = [1,2,3,4,5]
 data = list(product(arr, arr, arr))
 
